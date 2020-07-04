@@ -13,7 +13,6 @@ import {
 import InfoIcon from '@material-ui/icons/Info';
 import {
     Home as HomeIcon,
-    EventAvailable as ItemIcon,
 } from '@material-ui/icons';
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles.js';
@@ -23,11 +22,6 @@ const menus = [
         path: '/homes',
         icon: HomeIcon,
         label: 'Home'
-    },
-    {
-        path: '/items',
-        icon: ItemIcon,
-        label: 'Items'
     },
 
 ];
